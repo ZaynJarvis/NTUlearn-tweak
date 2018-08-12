@@ -1,0 +1,101 @@
+body {
+  max-width: none !important;
+  background: url("https://cdna.artstation.com/p/assets/images/images/006/559/632/large/jesper-friis-anomaly.jpg?1499524948") !important;
+  /* background-size: 120% !important; */
+  background-attachment: fixed !important;
+  height: 1000vh !important;
+  min-height: 150vh !important;
+}
+html {
+  background: #000 !important;
+}
+#quick_links_wrap,
+#quick_links_wrap a,
+.newCopyright,
+.badge,
+.bannerImage,
+#global-nav .global-top-avatar,
+/* .global-nav-bar.logout, */
+.portlet:nth-child(1),
+#puller,
+.localViewToggle {
+  display: none !important;
+}
+.global-nav-bar-wrap {
+  height: 0 !important;
+}
+
+.appTabs td {
+  padding-top: 14px !important;
+}
+
+.global-nav-bar {
+  background: transparent !important;
+  position: absolute;
+  right: 0;
+}
+#globalNavPageNavArea {
+  height: 100px;
+}
+.brandingImgWrap {
+  height: 20px !important;
+}
+.mainButton > a {
+  font-weight: normal !important;
+}
+
+.locationPane,
+.contentPane {
+  background: transparent !important;
+}
+.u_floatThis-left {
+  float: right !important;
+}
+.container {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+table.bouncer,
+.contentPane .shadow {
+  border: none !important;
+}
+.nav-link {
+  background: transparent !important;
+}
+#globalNavPageNavArea,
+.breadcrumbs,
+.paneTabs,
+.navigationPane {
+  opacity: 0.7;
+  transition: all 0.8s !important;
+}
+#globalNavPageNavArea:hover,
+.breadcrumbs:hover,
+.paneTabs:hover,
+.navigationPane:hover {
+  opacity: 1;
+}
+.breadcrumbs,
+.paneTabs,
+.navigationPane {
+  background: rgb(35, 35, 35) !important;
+  border: none !important;
+}
+.path a,
+.path .placeholder {
+  color: #fff !important;
+}
+.pageTitle {
+  margin-top: 0 !important;
+  font-size: 2rem;
+}
+#navigationPane {
+  margin-top: -10px !important;
+  background: transparent !important;
+}
+.menuWrap {
+  height: 100vh !important;
+  background: transparent !important;
+}
+#loginPageContainer {
+  border: none !important;
+}
