@@ -116,7 +116,3 @@ html {
   flex-flow: column wrap;
   align-items: center;
 }
-
-.portlet:nth-child(1) {
-  display: none;
-}
