@@ -1,34 +1,47 @@
+/* Recomended Changes */
 body {
   max-width: none !important;
-  background: url("https://cdna.artstation.com/p/assets/images/images/006/559/632/large/jesper-friis-anomaly.jpg?1499524948") !important;
-  /* background-size: 120% !important; */
   background-attachment: fixed !important;
   height: 1000vh !important;
-  min-height: 150vh !important;
+  min-height: 100vh !important;
 }
-html {
-  background: #000 !important;
+div.loginBody {
+  height: 100vh !important;
+  display: flex !important;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding: 0 !important;
 }
 #quick_links_wrap,
 #quick_links_wrap a,
 .newCopyright,
 .badge,
-.bannerImage,
 #global-nav .global-top-avatar,
-/* .global-nav-bar.logout, */
-.portlet:nth-child(1),
 #puller,
-.localViewToggle {
+.localViewToggle,
+.customBanner,
+.currentBannerWrapper {
   display: none !important;
 }
 .global-nav-bar-wrap {
   height: 0 !important;
 }
-
 .appTabs td {
   padding-top: 14px !important;
 }
+table.bouncer,
+.contentPane .shadow,
+#loginPageContainer {
+  border: none !important;
+}
+.nav-link,
+.menuWrap,
+#globalNavPageContentArea,
+p {
+  background: transparent !important;
+}
 
+/* Theme Setup */
 .global-nav-bar {
   background: transparent !important;
   position: absolute;
@@ -43,23 +56,12 @@ html {
 .mainButton > a {
   font-weight: normal !important;
 }
-
 .locationPane,
 .contentPane {
   background: transparent !important;
 }
-.u_floatThis-left {
-  float: right !important;
-}
 .container {
   background: rgba(255, 255, 255, 0.7) !important;
-}
-table.bouncer,
-.contentPane .shadow {
-  border: none !important;
-}
-.nav-link {
-  background: transparent !important;
 }
 #globalNavPageNavArea,
 .breadcrumbs,
@@ -80,22 +82,41 @@ table.bouncer,
   background: rgb(35, 35, 35) !important;
   border: none !important;
 }
+
+/* Need to be changed based on background */
+#loginBox li label,
+.portlet #loginBoxFull li label {
+  color: #fff !important;
+}
+html {
+  background: #000 !important;
+}
 .path a,
 .path .placeholder {
   color: #fff !important;
 }
-.pageTitle {
-  margin-top: 0 !important;
-  font-size: 2rem;
+
+/* May need to be changed based on Preference */
+#loginPageContainer {
+  background-image: none !important;
 }
 #navigationPane {
   margin-top: -10px !important;
   background: transparent !important;
 }
-.menuWrap {
-  height: 100vh !important;
-  background: transparent !important;
+.pageTitle {
+  margin-top: 0 !important;
+  font-size: 2rem;
 }
-#loginPageContainer {
-  border: none !important;
+.u_floatThis-left {
+  float: right !important;
+}
+#loginFormList {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.portlet:nth-child(1) {
+  display: none;
 }
