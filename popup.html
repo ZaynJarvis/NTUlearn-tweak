@@ -1,13 +1,47 @@
 <html style="background: transparent">
 
 <head>
+    <style>
+        body {
+            /* background: rgb(27, 27, 27); */
+            width: 10px;
+            background: url('./LIU.png') rgba(27, 27, 27, 0.9);
+            background-size: contain;
+            background-repeat: no-repeat;
+            color: #fff;
+            padding: 10px 10px 10px 150px;
+        }
+
+        input {
+            border-radius: 2px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(204, 146, 146);
+            transition: 0.4s;
+        }
+
+        a:hover {
+            color: #64c7c2
+        }
+    </style>
     <script src="jquery.js"></script>
     <script src="popup.js"></script>
+    <script src="https://github.com/ZaynJarvis/NTUlearn-tweak/blob/master/addition.js"></script>
 </head>
 
 <body style="width: 300px;">
     <label for="userinput">Put image address here : </label>
     <input id="userinput" autocomplete="off" />
+    <hr/>
+    <p>Thank you for your support.<br/> If you enjoy this extension, you can subscribe my
+        <a href="https://www.youtube.com/channel/UCGZbRK9E7v_FccSOKIqZAaQ">YouTube Channel</a>
+    </p>
+    <p>And feel free to send me some feedback @
+        <a href="https://zaynjarvis.com/contact">ZaynJarvis</a>
+    </p>
+    <div id="root"></div>
 </body>
 
 </html>
