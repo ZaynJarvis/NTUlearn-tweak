@@ -29,7 +29,6 @@ div.loginBody {
 #quick_links_wrap,
 #quick_links_wrap a,
 .newCopyright,
-.badge,
 #global-nav .global-top-avatar,
 #puller,
 .localViewToggle,
@@ -56,7 +55,12 @@ table.bouncer,
 p {
   background: transparent !important;
 }
-
+#badgeTotalCount {
+  background: transparent !important;
+  color: rgb(204, 146, 146);
+  margin-top: -0.5px;
+  padding-right: 6px;
+}
 /* Theme Setup */
 .global-nav-bar {
   background: transparent !important;
