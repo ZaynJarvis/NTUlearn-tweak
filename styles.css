@@ -55,6 +55,11 @@ table.bouncer,
 p {
   background: transparent !important;
 }
+.global-nav-bar a.logout-link {
+  background-image: url("/images/ci/mybb/mybb_nav_logout.png") !important;
+  background-repeat: no-repeat;
+  width: 25px;
+}
 #badgeTotalCount {
   background: transparent !important;
   color: rgb(204, 146, 146);
