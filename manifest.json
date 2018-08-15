@@ -5,21 +5,21 @@
   "version": "0.1.0",
   "description": "change NTULEARN CSS",
   "icons": {
-    "16": "LIU.png",
-    "48": "LIU.png",
-    "128": "LIU.png"
+    "16": "./content/LIU.png",
+    "48": "./content/LIU.png",
+    "128": "./content/LIU.png"
   },
   "content_scripts": [
     {
-      "css": ["styles.css", "personal.css"],
-      "js": ["content.js"],
+      "css": ["./content/styles.css", "./content/personal.css"],
+      "js": ["./content/content.js"],
       "matches": ["https://ntulearn.ntu.edu.sg/*"]
     }
   ],
   "permissions": ["tabs"],
   "browser_action": {
-    "default_icon": "Tools.png",
-    "default_popup": "popup.html",
+    "default_icon": "./popup/Tools.png",
+    "default_popup": "./popup/popup.html",
     "default_title": "NTUlearn Tweak"
   },
   "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"

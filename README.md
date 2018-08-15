@@ -1,2 +1,7 @@
 ## Learn basic CSS and change NTULEARN website using chrome extension
-![Screen shot of NTULEARN](./1.png "Screen shot of NTULEARN")
+
+![Screen shot of NTULEARN](./showcase.png "Screen shot of NTULEARN")
+
+## Watch more on my
+
+[https://www.youtube.com/playlist?list=PLauyMbJD3fIl5-Mbh9bRaHJ1UzFAUv0E5](YouTube Channel)
