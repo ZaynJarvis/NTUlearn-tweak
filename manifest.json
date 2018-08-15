@@ -5,9 +5,9 @@
   "version": "0.1.0",
   "description": "change NTULEARN CSS",
   "icons": {
-    "16": "./content/LIU.png",
-    "48": "./content/LIU.png",
-    "128": "./content/LIU.png"
+    "16": "./LIU.png",
+    "48": "./LIU.png",
+    "128": "./LIU.png"
   },
   "content_scripts": [
     {
