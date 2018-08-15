@@ -11,7 +11,7 @@
   },
   "content_scripts": [
     {
-      "css": ["styles.css"],
+      "css": ["styles.css", "personal.css"],
       "js": ["content.js"],
       "matches": ["https://ntulearn.ntu.edu.sg/*"]
     }
