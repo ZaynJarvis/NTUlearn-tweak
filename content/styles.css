@@ -52,7 +52,8 @@ table.bouncer,
 .nav-link,
 .menuWrap,
 #globalNavPageContentArea,
-p {
+p,
+p span {
   background: transparent !important;
 }
 .global-nav-bar a.logout-link {
