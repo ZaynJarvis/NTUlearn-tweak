@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "NTULEARN tweak",
+  "name": "NTULearn Tweak",
   "version": "1.1.0",
-  "description": "change NTULEARN CSS",
+  "description": "Chrome Extension which change NTULearn UI.",
   "icons": {
     "16": "./branding.png",
     "48": "./branding.png",
