@@ -53,7 +53,13 @@ table.bouncer,
 .menuWrap,
 #globalNavPageContentArea,
 p,
-p span {
+p span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   background: transparent !important;
 }
 .global-nav-bar a.logout-link {
@@ -138,4 +144,9 @@ html {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
+}
+#pageTitleDiv {
+  opacity: 0 !important;
+  height: 5px !important;
+  padding: 0 !important;
 }
