@@ -11,3 +11,6 @@ Disable background color for span li a.
 
 # Update on 1.2.0
 Disable the display of "Turning Point" and "Learning Service Updates"
+
+# Update on 1.3.0
+Enable _blank in Home page
