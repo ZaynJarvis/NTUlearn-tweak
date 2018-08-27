@@ -53,9 +53,6 @@ table.bouncer,
 .menuWrap,
 #globalNavPageContentArea,
 p,
-span,
-li,
-span a,
 h1,
 h2,
 h3,
@@ -63,6 +60,11 @@ h4,
 h5,
 h6 {
   background: transparent !important;
+}
+span,
+li,
+span a {
+  background-color: transparent !important;
 }
 .global-nav-bar a.logout-link {
   background-image: url("/images/ci/mybb/mybb_nav_logout.png") !important;
