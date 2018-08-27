@@ -6,14 +6,8 @@
 
 [YouTube Channel](https://www.youtube.com/playlist?list=PLauyMbJD3fIl5-Mbh9bRaHJ1UzFAUv0E5)
 
-## Remove Turning Point
+# Update on 1.1.0
+Disable background color for span li a.
 
-Put another useless section in front of the second column (find it in Add Module)
-
-Then add this to personal.css.
-
-```css
-.portlet:nth-child(1) {
-  display: none;
-}
-```
+# Update on 1.2.0
+Disable the display of "Turning Point" and "Learning Service Updates"
