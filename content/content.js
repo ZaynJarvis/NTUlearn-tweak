@@ -14,9 +14,6 @@ function gotMessage(message, sender, sendResponse) {
 try {
   document
     .querySelector("#wrapper .ntulearn h1")
-    // .addEventListener("click", () => {
-    //   window.open(document.querySelector("#wrapper .ntulearn h1 a").href);
-    // });
     .addEventListener("click", () => {
       window.open("https://ntulearn.ntu.edu.sg/webapps/login/", "_self");
     });
