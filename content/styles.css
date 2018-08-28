@@ -79,8 +79,12 @@ h6 {
 }
 span,
 li,
-span a {
+span a,
+table {
   background-color: transparent !important;
+}
+.menuWrap-inner {
+  background-color: #333 !important;
 }
 .global-nav-bar a.logout-link {
   background-image: url("/images/ci/mybb/mybb_nav_logout.png") !important;
