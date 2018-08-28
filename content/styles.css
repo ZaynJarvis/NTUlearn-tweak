@@ -5,7 +5,23 @@ body {
   min-height: 100vh !important;
   overflow: scroll !important;
 }
-
+#header-wrapper,
+#footer {
+  box-shadow: 0px 0px 100px #fff;
+  background: rgba(255, 255, 255, 0.8) !important;
+}
+#header {
+  display: flex !important;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+#logo {
+  bottom: none !important;
+  top: 0;
+}
+#menu-wrapper {
+  bottom: auto !important;
+}
 div.loginBody {
   height: 100vh !important;
   display: flex !important;
