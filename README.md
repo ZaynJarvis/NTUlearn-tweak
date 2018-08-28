@@ -14,3 +14,7 @@ Disable the display of "Turning Point" and "Learning Service Updates"
 
 # Update on 1.3.0
 Enable _blank in Home page
+
+# Update on 1.4.0
+Change Login Page Header and Footer
+
