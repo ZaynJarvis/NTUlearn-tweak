@@ -1,7 +1,5 @@
 $(function() {
   $("#userinput").change(e => {
-    $("#test").html($("#userinput").val());
-    console.log("text changed");
     let params = {
       active: true,
       currentWindow: true
@@ -9,8 +7,8 @@ $(function() {
     chrome.tabs.query(params, gotTabs);
 
     function gotTabs(tabs) {
-      let msg = { url: $("#userinput").val() };
-      console.log(msg);
+      const val = $("#userinput").val();
+      let msg = { url: val };
       chrome.tabs.sendMessage(tabs[0].id, msg);
     }
   });

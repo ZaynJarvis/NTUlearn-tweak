@@ -18,3 +18,6 @@ Enable _blank in Home page
 # Update on 1.4.0
 Change Login Page Header and Footer
 
+# Update on 1.5.0
+Add Notification block for Information and Biz Dev
+

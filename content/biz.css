@@ -1,0 +1,22 @@
+.edit_controls {
+  display: none;
+}
+.TweakContainer {
+  padding: 10px 12px;
+  transition: 1s;
+  line-height: 1.5;
+  height: auto;
+}
+.TweakSubTitle {
+  padding: 10px 0 !important;
+  margin: 0 !important;
+  text-align: center;
+  color: lightskyblue !important;
+}
+
+.TweakClose {
+  height: 0.1px;
+}
+.TweakTitle {
+  padding-left: 12px !important;
+}

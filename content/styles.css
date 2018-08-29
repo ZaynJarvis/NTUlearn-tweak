@@ -80,7 +80,10 @@ h6 {
 span,
 li,
 span a,
-table {
+table,
+strong,
+em,
+small {
   background-color: transparent !important;
 }
 .menuWrap-inner {
@@ -173,4 +176,8 @@ html {
   opacity: 0 !important;
   height: 5px !important;
   padding: 0 !important;
+}
+#module\3A_347_1,
+#module\3a_342_1 {
+  display: none;
 }
