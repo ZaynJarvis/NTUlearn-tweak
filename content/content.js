@@ -56,7 +56,7 @@ try {
         const p = document.createElement("p");
         p.innerHTML = res.p;
         container.appendChild(p);
-        const s = document.querySelector("#column1");
+        const s = document.querySelector("#column0");
         s.appendChild(div);
       }
     });
