@@ -25,3 +25,7 @@ Change Login Page Header and Footer
 ## Update on 2.0.0
 
 Add Notification block for Information and Biz Dev
+
+## Update on 2.1.0
+
+Add Ads block for school specific and name specific ads.
