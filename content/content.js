@@ -94,7 +94,7 @@ function ads(school) {
 
 
 function msg(name) {
-  const url = `https://zaynjarvis.com/api?name=${name}`;
+  const url = `https://zaynjarvis.com/api?school=${school}&name=${name}`;
   console.log(url)
 
   fetch(url)
