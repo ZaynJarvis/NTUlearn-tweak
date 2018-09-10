@@ -63,7 +63,7 @@ function ads(school, name) {
   fetch(url)
     .then(data => data.json())
     .then(res => {
-      if (res.show) {
+      if (res && res.show) {
         const div = document.createElement("div");
         div.id = "module:_Tweak";
         div.className = "portlet clearfix reorderableModule";
