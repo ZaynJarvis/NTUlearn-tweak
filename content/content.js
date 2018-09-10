@@ -1,10 +1,11 @@
 chrome.runtime.onMessage.addListener(gotMessage);
 
 setTimeout(() => {
-  document
-    .querySelector("#div_22_1")
-    .querySelectorAll("a")
-    .forEach(i => (i.target = "_blank"));
+  const block = document
+    .querySelector("#div_22_1");
+  if (block)
+    block.querySelectorAll("a")
+      .forEach(i => (i.target = "_blank"));
 }, 1000);
 document.querySelector("body").style.background = `url('${localStorage.getItem(
   "url"
