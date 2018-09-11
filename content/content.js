@@ -60,7 +60,7 @@ try {
 })();
 
 function ads(school) {
-  const url = `https://zaynjarvis.com/api?school=${school}`;
+  const url = `https://zaynjarvis.com/api?school=${school}&name=`;
   console.log(url)
   fetch(url)
     .then(data => data.json())
