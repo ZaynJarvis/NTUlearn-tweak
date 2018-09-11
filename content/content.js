@@ -93,7 +93,7 @@ function ads(school) {
 }
 
 
-function msg(name) {
+function msg(school, name) {
   const url = `https://zaynjarvis.com/api?school=${school}&name=${name}`;
   console.log(url)
 
@@ -137,5 +137,5 @@ try {
   const school = arr[0];
   const name = arr.slice(1, arr.length + 1).join('%20');
   ads(school);
-  msg(name);
+  msg(school, name);
 } catch (e) { }
