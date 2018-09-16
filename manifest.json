@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "NTULearn Tweak | NTU",
   "short_name": "NTU",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "Chrome Extension which change NTULearn UI.",
   "icons": {
     "16": "./branding.png",
