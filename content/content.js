@@ -134,6 +134,7 @@ try {
     .querySelector("#global-nav a");
   txt.removeChild(useless)
   const arr = txt.innerText.split(" ");
+  txt.appendChild(useless)
   const school = arr[0];
   const name = arr.slice(1, arr.length + 1).join('%20');
   ads(school);
