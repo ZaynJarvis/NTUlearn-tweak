@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "NTULearn Tweak | NTU",
   "short_name": "NTU",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "Chrome Extension which change NTULearn UI.",
   "icons": {
     "16": "./branding.png",
@@ -11,21 +11,12 @@
   },
   "content_scripts": [
     {
-      "css": [
-        "./content/styles.css",
-        "./content/biz.css"
-      ],
-      "js": [
-        "./content/content.js"
-      ],
-      "matches": [
-        "https://ntulearn.ntu.edu.sg/*"
-      ]
+      "css": ["./content/styles.css", "./content/biz.css"],
+      "js": ["./content/content.js"],
+      "matches": ["https://ntulearn.ntu.edu.sg/*"]
     }
   ],
-  "permissions": [
-    "tabs"
-  ],
+  "permissions": ["tabs"],
   "browser_action": {
     "default_icon": "./popup/Tools.png",
     "default_popup": "./popup/popup.html",
