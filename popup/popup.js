@@ -1,14 +1,14 @@
 document.querySelector("#userinput").onsubmit = e => {
   e.preventDefault();
-  const content = document.querySelector("#url").value;
-  chrome.tabs.query(
-    {
-      active: true,
-      currentWindow: true
-    },
-    tabs => {
-      let msg = { url: content };
-      chrome.tabs.send(tabs[0].id, msg);
-    }
-  );
+  let params = {
+    active: true,
+    currentWindow: true
+  };
+  chrome.tabs.query(params, gotTabs);
+
+  function gotTabs(tabs) {
+    const val = document.querySelector("#url").value;
+    let msg = { url: val };
+    chrome.tabs.sendMessage(tabs[0].id, msg);
+  }
 };
