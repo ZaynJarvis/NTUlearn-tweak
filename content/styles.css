@@ -1,4 +1,7 @@
 /* Recomended Changes */
+html {
+  overflow: scroll !important;
+}
 body {
   max-width: none !important;
   background-attachment: fixed !important;

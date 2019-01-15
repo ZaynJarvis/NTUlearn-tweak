@@ -1,4 +1,7 @@
-chrome.runtime.onMessage.addListener(gotMessage);
+chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
+  localStorage.setItem("url", message.url);
+  location.reload();
+});
 
 setTimeout(() => {
   const block = document.querySelector("#div_22_1");
@@ -9,10 +12,6 @@ document.querySelector("body").style.background = `url('${localStorage.getItem(
 ) ||
   "https://avatars.mds.yandex.net/get-pdb/1209663/b075c80e-a715-45e7-a18a-c4fc3d8bcea7/orig"}`;
 document.querySelector("body").style.backgroundSize = "cover";
-function gotMessage(message, sender, sendResponse) {
-  localStorage.setItem("url", message.url);
-  location.reload();
-}
 
 try {
   document
