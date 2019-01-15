@@ -15,7 +15,7 @@
         border-radius: 3px;
         padding: 2px;
         margin-top: 5px;
-        width: 80%;
+        width: 90%;
       }
       #submit {
         width: 18%;
@@ -34,13 +34,9 @@
   </head>
 
   <body style="width: 300px;">
-    <form onsubmit="return send()">
-      <label for="userinput">Put image address here and press enter: </label>
-      <br />
-      <input id="userinput" autocomplete="off" /><input
-        id="submit"
-        type="submit"
-      />
+    <form id="userinput">
+      <label for="url">Put image address here and press enter: </label> <br />
+      <input id="url" autocomplete="off" />
     </form>
     <hr />
     <p>
@@ -56,21 +52,6 @@
       And feel free to send me some feedback
       <a href="https://zaynjarvis.com/contact" target="_blank">ZaynJarvis</a>
     </p>
-    <script type="javascript">
-      function send() {
-        console.log(1);
-        const content = document.querySelector("#userinput").value;
-        console.log(content);
-        let params = {
-          active: true,
-          currentWindow: true
-        };
-        chrome.tabs.query(params, function(tabs) {
-          let msg = { url: content };
-          chrome.tabs.send(tabs[0].id, msg);
-        });
-        return true;
-      }
-    </script>
+    <script src="./popup.js"></script>
   </body>
 </html>
