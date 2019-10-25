@@ -1,10 +1,6 @@
 ### Learn basic CSS and change NTULEARN website using chrome extension
 
-![Screen shot of NTULEARN](./showcase.png "Screen shot of NTULEARN")
-
-### Watch more on my
-
-[YouTube Channel](https://www.youtube.com/playlist?list=PLauyMbJD3fIl5-Mbh9bRaHJ1UzFAUv0E5)
+![Screen shot of NTULEARN](./showcase.png 'Screen shot of NTULEARN')
 
 ## Update on 1.1.0
 
@@ -29,3 +25,9 @@ Add Notification block for Information and Biz Dev
 ## Update on 2.1.0
 
 Add Ads block for school specific and name specific ads.
+
+## Update on 2.2.0
+
+Disable notification pannel
+Disable puller
+Improve popup UI

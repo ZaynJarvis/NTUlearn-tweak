@@ -1,57 +1,102 @@
 <html style="background: transparent">
-  <head>
-    <style>
-      body {
-        background: rgb(27, 27, 27);
-        width: 10px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        color: #fff;
-        padding: 10px;
-      }
+	<head>
+		<style>
+			body {
+				background: #97e6da;
+				color: #000;
+				border: 5px solid rgb(244, 229, 167);
+				height: 300px;
+				width: 300px;
+				display: flex;
+				align-items: center;
+			}
+			body > div {
+				width: 100%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				position: relative;
+			}
 
-      #userinput {
-        border: none;
-        border-radius: 3px;
-        padding: 2px;
-        margin-top: 5px;
-        width: 90%;
-      }
-      #submit {
-        width: 18%;
-      }
+			#userinput {
+				border: none;
+				padding: 2px;
+				margin-top: 5px;
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				transform: translateY(-20px);
+			}
+			h1 {
+				font-size: 26px;
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+					Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+				color: #358293;
+			}
+			.url {
+				outline: none;
+				width: 90%;
+				padding: 8px 10px;
+				font-size: 12px;
+				border-radius: 3px;
+				box-shadow: -1px 2px 5px #3339;
+				border: none;
+			}
 
-      a {
-        text-decoration: none;
-        color: rgb(197, 255, 255);
-        transition: 0.4s;
-      }
+			a {
+				text-decoration: none;
+				color: rgb(53, 130, 147);
+				transition: 0.4s;
+			}
 
-      a:hover {
-        color: #64c7c2;
-      }
-    </style>
-  </head>
+			a:hover {
+				color: #000;
+			}
 
-  <body style="width: 300px;">
-    <form id="userinput">
-      <label for="url">Put image address here and press enter: </label> <br />
-      <input id="url" autofocus autocomplete="off" />
-    </form>
-    <hr />
-    <p>
-      Thank you for your support.<br /><br />
-      If you enjoy this extension, you can subscribe my
-      <a
-        href="https://www.youtube.com/channel/UCGZbRK9E7v_FccSOKIqZAaQ"
-        target="_blank"
-        >YouTube Channel</a
-      >
-    </p>
-    <p>
-      And feel free to send me some feedback
-      <a href="https://zaynjarvis.com/contact" target="_blank">ZaynJarvis</a>
-    </p>
-    <script src="./popup.js"></script>
-  </body>
+			.link-wrapper {
+				display: flex;
+				justify-content: space-evenly;
+				width: 100%;
+				margin: 0;
+				position: absolute;
+				bottom: 20px;
+				left: 0;
+				right: 0;
+			}
+			.links {
+				font-size: 30px;
+			}
+		</style>
+		<script src="https://kit.fontawesome.com/b7d03b0036.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<div>
+			<form id="userinput">
+				<h1>NTULearn Tweak</h1>
+				<input
+					class="url"
+					id="url"
+					autofocus
+					autocomplete="off"
+					placeholder="Paste image address here and press enter"
+				/>
+			</form>
+			<div class="link-wrapper">
+				<a class="links" href="https://pexels.com/search/wallpaper" target="_blank">
+					<i class="fas fa-image"></i>
+				</a>
+				<a class="links" href="https://github.com/ZaynJarvis/NTUlearn-tweak" target="_blank">
+					<i class="fab fa-github-square"></i>
+				</a>
+				<a class="links" href="https://linkedin.com/in/zhihengliu/" target="_blank">
+					<i class="fab fa-linkedin"></i>
+				</a>
+			</div>
+		</div>
+		<script src="./popup.js"></script>
+	</body>
 </html>

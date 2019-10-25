@@ -40,6 +40,9 @@ div.loginBody {
   justify-content: center;
   padding: 0 !important;
 }
+a {
+  outline: none !important;
+}
 .ntulearn {
   cursor: pointer;
 }
@@ -64,6 +67,7 @@ div.loginBody {
 #wrapper .intro h1,
 #cycle-wrapper {
   display: none !important;
+  pointer-events: none !important;
 }
 .global-nav-bar-wrap {
   height: 0 !important;
@@ -75,6 +79,9 @@ table.bouncer,
 .contentPane .shadow,
 #loginPageContainer {
   border: none !important;
+}
+#content .vtbegenerated {
+  margin: 0 15px !important;
 }
 .nav-link,
 .menuWrap,
@@ -188,8 +195,4 @@ html {
   height: 5px !important;
   padding: 0 !important;
 }
-#module\3a_347_1,
-#module\3a_342_1,
-#module\3a_350_1 {
-  display: none;
-}
+
